@@ -4,14 +4,14 @@ var res=Math.floor(a);
 res=res+1;
 
 var randomimage= "dice"+res +".png";  //dice6.png;
-var randomimagesource="../dicechallenge/Dicee Challenge - Completed/images/" + randomimage;
 
-document.querySelectorAll("img")[0].setAttribute("src",randomimagesource);
+
+document.querySelectorAll("img")[0].setAttribute("src",randomimage);
 var b=Math.random();
 b=b*6;
 var res2=Math.floor(b);
 res2=res2+1;
-var randomimagesource2="../dicechallenge/Dicee Challenge - Completed/images/dice" +res2 +".png";
+var randomimagesource2="dice" +res2 +".png";
 
 document.querySelectorAll("img")[1].setAttribute("src",randomimagesource2);
 
